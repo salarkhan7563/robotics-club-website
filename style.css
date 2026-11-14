@@ -19,3 +19,22 @@ h2 {
   padding-bottom: 0.5rem;
   margin-bottom: 2rem;
 }
+
+.card-container {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.goal-card {
+  background-color: #1e293b;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  flex: 1;
+}
+
+.goal-card h3 {
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+}
