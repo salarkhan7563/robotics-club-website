@@ -38,3 +38,32 @@ h2 {
   color: #38bdf8;
   margin-bottom: 0.5rem;
 }
+
+/* Hackathon Sign-Up Section Styling */
+.signup-section {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin: 3rem auto;
+  max-width: 700px;
+  text-align: center;
+}
+
+.signup-section h2 {
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+  border: none; /* Removes the bottom underline from previous h2 styles */
+}
+
+.signup-section p {
+  color: #94a3b8;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
